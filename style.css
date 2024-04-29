@@ -1,0 +1,43 @@
+body {
+  font-family: fantasy; 
+  text-align: center;
+  background-color: rgb(65, 172, 172);
+}
+
+.tamagotchi-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tamagotchi {
+  margin-bottom: 20px;
+}
+
+.metrics {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #224ba4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: fantasy;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#pet {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: transform 0.5s ease-in-out;
+}

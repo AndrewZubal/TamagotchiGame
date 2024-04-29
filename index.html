@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamagotchi Mini-Project</title>
+ 
+</head>
+<body> <link href="style.css" rel="stylesheet" type="text/css">
+  <div class="tamagotchi-container">
+    <div class="tamagotchi" id="tamagotchi">
+      <img id="pet" src="img\dog.png" alt="pet">
+    </div>
+    <input type="text" id="petNameInput">
+    <button onclick="namePet()">Name Pet</button>
+    <div id="petNameDisplay"></div>
+    <div class="metrics">
+      <h2 id="statusHeader">Status</h2>
+      <div>Hunger: <span id="hunger">5</span></div>
+      <div>Sleepiness: <span id="sleepiness">5</span></div>
+      <div>Boredom: <span id="boredom">5</span></div>
+      <div>Age: <span id="age">0</span></div>
+    </div>
+    <div class="controls">
+      <button onclick="feed()">Feed</button>
+      <button onclick="turnOffLights()">Turn Off Lights</button>
+      <button onclick="play()">Play</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
